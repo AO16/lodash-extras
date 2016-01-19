@@ -52,6 +52,17 @@ lodashExtras.isPromise = isPromise;
 
 
 /**
+ * Helper to check if a variable is infinity
+ *
+ * @method isInfinity
+ * @param {*} value: Value to check
+ * @return {Boolean}
+ */
+export var isInfinity = (value) => (value === Infinity);
+lodashExtras.isInfinity = isInfinity;
+
+
+/**
  * Helper to check a value for an array of LoDash boolean conditions
  * TODO: Name this `isAnd` and create `isOr`...
  *
